@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./js/script.js" defer type="module"></script>
+    <script src="https://kit.fontawesome.com/2f087bc852.js" crossorigin="anonymous"></script>
+    <title>Calculaora de IMC</title>
+</head>
+
+<body>
+    <div class="alert-error ">
+        Digite somente números
+    </div>
+
+
+    <div class="container">
+        <main class="card">
+            <form>
+                <h1 class="title">Cálculo de IMC</h1>
+                <div class="input-wrapper">
+                    <label for="weight">Peso (kg)</label>
+                    <input id="weight" type="text" placeholder="60">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="height">Altura (cm)</label>
+                    <input id="height" type="text" placeholder="165">
+
+                </div>
+                <button type="submit">Calcular IMC <img class="arrow"><i
+                        class="fa-solid fa-arrow-right-long"></i></button>
+
+            </form>
+
+        </main>
+    </div>
+
+    <div class="modal-wrapper ">
+        <div class="modal card ">
+            <h2 class="title">
+                <button class="close">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+
+                <span>Seu IMC é de 28</span>
+            </h2>
+
+        </div>
+    </div>
+</body>
+
+</html>
